@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kameron&display=swap');
+
 *{
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
  :root{
     --vermelho: #e5383b;
     --preto: #0b090a;
     --cinza: #b1a7a6;
     --vermelho-forte: #660708;
+    --fonte-texto: "Kameron", serif;
+    --fonte-titulo: "Fjalla One", sans-serif;
  }
 
 .cabecalho{
-    background-color: #231a5b;
-    color: white;
+    background-color: var(--#231a5b);
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,14 +30,14 @@
 
 .cabecalho-lista-link{
     text-decoration: none;
-    color: white;
+    color: rgb(229, 21, 21);
     margin-right: 1.5em;
     font-size: 1.5em;
 }
 
 .escola{
     background-color: whitesmoke;
-    color: black;
+    color: var(--black);
     display: flex;
     justify-content: content;
     align-items: center;
@@ -42,6 +46,7 @@
 
 .escola-texto-titulo{
     padding: 24px 0;
+    font-family: var(--fonte-titulo);
 }
 
 .escola-imagem{
