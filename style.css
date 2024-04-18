@@ -5,16 +5,18 @@
   padding: 0;
 }
  :root{
+    --cinza-escuro: #231a5b;
+    --branco-smoke: #f5f5f5;
     --vermelho: #e5383b;
     --preto: #0b090a;
-    --cinza: #b1a7a6;
+    --cinza: #3509f8;
     --vermelho-forte: #660708;
     --fonte-texto: "Kameron", serif;
     --fonte-titulo: "Fjalla One", sans-serif;
  }
 
 .cabecalho{
-    background-color: var(--#231a5b);
+    background-color: var(--cinza-escuro);
     color: var(--white);
     display: flex;
     align-items: center;
@@ -36,12 +38,12 @@
 }
 
 .escola{
-    background-color: whitesmoke;
+    background-color: var(--branco-smoke);
     color: var(--black);
     display: flex;
     justify-content: content;
     align-items: center;
-    padding: 32px 0;
+    padding: 32px 0;--vermelho: #e5383b;
 }
 
 .escola-texto-titulo{
